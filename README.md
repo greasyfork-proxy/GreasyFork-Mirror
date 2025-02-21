@@ -12,7 +12,7 @@ GreasyFork.org 镜像站
 **我的自建镜像站**  
 为方便使用，现提供我自建的镜像站
 （强制使用https）：  
-[https://yx.dahi.edu.eu.org/zh-CN](https://yx.dahi.edu.eu.org/zh-CN)  
+[https://greasyfork.zh-cn.eu.org/zh-CN](https://greasyfork.zh-cn.eu.org/zh-CN)  
 
 **特点**  
 - **Serverless技术**：采用无服务器架构，高效便捷。  
@@ -32,7 +32,7 @@ GreasyFork.org 镜像站
 
 **My Self-hosted Mirror Site**  
 For your convenience, I have created a self-hosted mirror site:  
-[https://yx.dahi.edu.eu.org/zh-CN](https://yx.dahi.edu.eu.org/zh-CN)  
+[https://greasyfork.zh-cn.eu.org/zh-CN](https://greasyfork.zh-cn.eu.org/zh-CN)  
 
 **Features**  
 - **Serverless Technology**: Utilizes a serverless architecture for efficiency and convenience.  

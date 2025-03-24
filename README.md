@@ -3,14 +3,14 @@ GreasyFork.org 镜像站
 # https://greasyfork.zh-cn.eu.org/zh-CN
 
 ## a mirror site for low network quantity.  
-部分较差的网络环境备用。
+部分较差的网络环境备用。博主因学业原因不再频繁手动维护，进入长期服务状态。可选择长期使用。
 
 
 
 ### CHS
 
-**我的自建镜像站**  
-为方便使用，现提供我自建的镜像站
+**镜像站**  
+为方便使用，现提供自建的镜像站
 （强制使用https）：  
 [https://greasyfork.zh-cn.eu.org/zh-CN](https://greasyfork.zh-cn.eu.org/zh-CN)  
 

@@ -23,7 +23,6 @@ GreasyFork.org 镜像站
 - **脚本下载**：提供脚本下载服务。  
 - **自动替换**：脚本内的依赖与更新链接会自动替换。  
 - **反向代理**：已反向代理该项目的主站。  
-![Screenshot_20250218-184357.png](https://github.com/user-attachments/assets/e7225774-1847-45dc-895f-a2a491f0354f)
 
 
 ---

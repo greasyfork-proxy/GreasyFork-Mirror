@@ -1,9 +1,11 @@
 # GreasyFork镜像
 GreasyFork.org 镜像站
-# https://greasyfork.zh-cn.eu.org/zh-CN
+# https://greasyfork.org.cn/zh-hans
 
 ## a mirror site for low network quantity.  
-部分较差的网络环境备用。博主因学业原因不再频繁手动维护，进入长期服务状态。可选择长期使用。
+
+部分较差的网络环境备用。
+博主因学业原因不再频繁手动维护，进入长期服务状态。可长期使用。
 
 
 
@@ -12,7 +14,7 @@ GreasyFork.org 镜像站
 **镜像站**  
 为方便使用，现提供自建的镜像站
 （强制使用https）：  
-[https://greasyfork.zh-cn.eu.org/zh-CN](https://greasyfork.zh-cn.eu.org/zh-CN)  
+[https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)  
 
 **特点**  
 - **Serverless技术**：采用无服务器架构，高效便捷。  
@@ -31,7 +33,8 @@ GreasyFork.org 镜像站
 
 **My Self-hosted Mirror Site**  
 For your convenience, I have created a self-hosted mirror site:  
-[https://greasyfork.zh-cn.eu.org/zh-CN](https://greasyfork.zh-cn.eu.org/zh-CN)  
+[https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)  
+
 
 **Features**  
 - **Serverless Technology**: Utilizes a serverless architecture for efficiency and convenience.  

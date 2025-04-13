@@ -1,80 +1,91 @@
-
 # GreasyFork 镜像站 / GreasyFork Mirror
 
-[![镜像状态](https://img.shields.io/badge/镜像-运营中-brightgreen)](https://greasyfork.org.cn/zh-hans)  
-[![Mirror Status](https://img.shields.io/badge/Mirror-Operational-brightgreen)](https://greasyfork.org.cn/zh-hans)  
-[![文档/Docs](https://img.shields.io/badge/文档-Documentation-blue)](https://doc.greasyfork.org.cn/)
+[![状态](https://img.shields.io/badge/状态-运营中-brightgreen)](https://greasyfork.org.cn/zh-hans)  
+[![Status](https://img.shields.io/badge/Status-Operational-brightgreen)](https://greasyfork.org.cn/zh-hans)  
+[![文档](https://img.shields.io/badge/文档-Documentation-blue)](https://doc.greasyfork.org.cn/)  
+![流量](https://img.shields.io/badge/流量重置-每日08:00_SGT-blue)
 
 为网络不畅环境提供的备用镜像 / Alternative access for poor network conditions
 
-**镜像主网址**: [https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)  
-**文档中心**: [https://doc.greasyfork.org.cn/](https://doc.greasyfork.org.cn/)
+**镜像官方主网址**: [https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)  
+**文档中心**: [https://doc.greasyfork.org.cn/](https://doc.greasyfork.org.cn/)  
+
+---
+
+## ⚠️ 重要通知 / Important Notice
+| 状态提示 | Status Alerts |
+|----------|--------------|
+| • 每日访问量过大时会出现 **HTTP 503 (1027错误)** | • Daily traffic may cause **HTTP 503 (Error 1027)** |
+| • 流量限制每日新加坡时间08:00自动重置 | • Limits reset daily at **08:00 SGT (UTC+8)** |
+| • 高峰期请错峰访问 | • Off-peak hours recommended during high traffic |
 
 ---
 
 ## 中文版
 
-### 基本介绍
-- 自建的 GreasyFork.org 反向代理镜像站
-- 采用无服务器架构，长期稳定运行
-- 适合主站访问困难的用户使用
+### 核心特点
+- 🔄 **智能更新**：仅替换官方站相关链接，非全量更新
+- 🛡️ **内容安全**：违禁词系统+违法内容搜索屏蔽
+- ⏳ **缓存机制**：关键内容保留48小时
+- 🔄 **每日重置**：1027错误每日08:00自动解除
 
-### 主要功能
-- ✔️ **完整镜像**：全面代理主站内容
-- ✔️ **脚本支持**：自动替换脚本内的依赖链接
-- ✔️（ ） **用户功能**：支持登录、下载、讨论、检举等操作（维护中）
-- ❌ **验证码功能**：需要人机验证的功能不可用
+### 功能状态
+| 功能 | 状态 | 说明 |
+|------|------|------|
+| 脚本下载 | ✔️ 正常 | 自动替换依赖链接 |
+| 用户登录 | ✔️ 正常（暂未开放） |  |
+| 讨论区 | ⚠️ 部分 | 部分功能受限 |
+| 验证码 | ❌ 不可用 | 所有人机验证功能 |
 
-### 使用说明
-1. 本镜像站已进入**长期维护模式**，更新频率较低
-2. 完整文档请访问：[文档中心](https://doc.greasyfork.org.cn/)
-3. 遇到问题可通过 GitHub 反馈
-
-### 技术特点
-- 强制 HTTPS 安全连接
-- 无服务器架构成本低
-- 定期同步静态内容
+### 技术说明
+1. **流量控制**：
+   - 每日请求限额
+   - 超额返回1027错误
+   - 次日08:00自动恢复
+2. **安全机制**：
+   - 强制HTTPS
+   - 内容过滤系统
+   - 敏感词实时屏蔽
 
 ---
 
 ## English Version
 
-### Introduction
-- Self-hosted reverse proxy mirror of GreasyFork.org
-- Serverless architecture for long-term stability
-- Alternative access for users with connectivity issues
-
 ### Key Features
-- ✔️ **Full Mirror**: Complete proxy of main site content
-- ✔️ **Script Support**: Auto-replacement of dependency links
-- ✔️( ) **User Features**: Login, downloads, discussions available(in maintenance)
-- ❌ **CAPTCHA**: Functions requiring verification unavailable
+- 🔄 **Smart Updates**: Official link replacements only
+- 🛡️ **Content Safety**: Prohibited word filtering + illegal content blocking
+- ⏳ **Caching**: Key content kept for 48h
+- 🔄 **Daily Reset**: 1027 errors auto-clear at 08:00 SGT
 
-### Usage Notes
-1. Now in **long-term maintenance mode** with infrequent updates
-2. Full documentation: [Documentation Center](https://doc.greasyfork.org.cn/)
-3. Report issues via GitHub
+### Status
+| Feature | Status | Notes |
+|---------|--------|-------|
+| Scripts | ✔️ Works | Auto-link conversion |
+| Login | ✔️ Works(in maintenance) |  |
+| Forum | ⚠️ Partial | Some limits |
+| CAPTCHA | ❌ Unavailable | All verification |
 
-### Technical Highlights
-- Enforced HTTPS connections
-- Low-cost serverless architecture
-- Periodic static content sync
+### Technical Notes
+1. **Traffic Control**:
+   - Daily request quota
+   - Returns 1027 when exceeded
+   - Auto-reset at 08:00 SGT
+2. **Security**:
+   - Enforced HTTPS
+   - Content filtering
+   - Real-time word blocking
 
 ---
 
-## 替代方案 / Alternatives
-- 官方主站 / Official site: [https://greasyfork.org](https://greasyfork.org)
-- 其他社区镜像 / Other community mirrors
+## 使用建议 / Recommendations
+```diff
++ 推荐方案：
+- 开发者：测试链接替换效果
+- 普通用户：遇到1027错误可次日08:00后重试
+- 高峰期：建议早晚非高峰时段访问
 
----
-
-This version features:
-1. Clear bilingual separation with consistent structure
-2. Visual badges for quick status recognition
-3. Parallel content organization for easy comparison
-4. Prominent documentation links in both sections
-5. Consistent checkmark/cross marking for features
-6. Shared footer with alternative options
-7. Optimized for both Chinese and English readers
-
-Would you like any adjustments to the formatting or content emphasis?
++ Recommended:
+- Devs: Verify link conversions
+- Users: Retry after 08:00 SGT if 1027 occurs
+- Peak hours: Try early/late hours
+```

@@ -15,7 +15,7 @@
 ## ⚠️ 重要通知 / Important Notice
 | 状态提示 | Status Alerts |
 |----------|--------------|
-| • 每日访问量过大时会出现 **HTTP 503 (1027错误)** | • Daily traffic may cause **HTTP 503 (Error 1027)** |
+| • 每日访问量过大时会出现 **HTTP 429 (1027错误)** | • Daily traffic may cause **HTTP 429 (Error 1027)** |
 | • 流量限制每日新加坡时间08:00自动重置 | • Limits reset daily at **08:00 SGT (UTC+8)** |
 | • 高峰期请错峰访问 | • Off-peak hours recommended during high traffic |
 

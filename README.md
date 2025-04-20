@@ -33,7 +33,7 @@
 | 功能 | 状态 | 说明 |
 |------|------|------|
 | 脚本下载 | ✔️ 正常 | 自动替换依赖链接 |
-| 用户登录 | ✔️ 正常（暂未开放） |  |
+| 用户登录 | ✔️ 正常 |  |
 | 讨论区 | ⚠️ 部分 | 部分功能受限 |
 | 验证码 | ❌ 不可用 | 所有人机验证功能 |
 
@@ -61,7 +61,7 @@
 | Feature | Status | Notes |
 |---------|--------|-------|
 | Scripts | ✔️ Works | Auto-link conversion |
-| Login | ✔️ Works(in maintenance) |  |
+| Login | ✔️ Works |  |
 | Forum | ⚠️ Partial | Some limits |
 | CAPTCHA | ❌ Unavailable | All verification |
 

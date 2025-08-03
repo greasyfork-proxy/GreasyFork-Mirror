@@ -9,7 +9,7 @@
 
 为网络不畅环境提供的备用镜像 / Alternative access for poor network conditions
 
-**镜像官方主网址**: [https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)  
+**此镜像主网址**: [https://greasyfork.org.cn/zh-hans](https://greasyfork.org.cn/zh-hans)  
 **文档中心**: [https://doc.greasyfork.org.cn/](https://doc.greasyfork.org.cn/)  
 
 ---
@@ -17,7 +17,7 @@
 ## ⚠️ 重要通知 / Important Notice
 | 状态提示 | Status Alerts |
 |----------|--------------|
-| • 每日访问量过大时会出现 **HTTP 429 (1027/1102错误)** | • Daily traffic may cause **HTTP 429 (Error 1027/1102)** |
+| • 每日访问量过大时可能会出现 **HTTP 429 (1027/1102错误)** | • Daily traffic may cause **HTTP 429 (Error 1027/1102)** |
 | • 流量限制（1027）每日新加坡时间08:00自动重置 | • Limits (1027) reset daily at **08:00 SGT (UTC+8)** |
 | • 高峰期请错峰访问 | • Off-peak hours recommended during high traffic |
 
